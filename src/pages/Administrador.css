@@ -1,0 +1,61 @@
+.features2{
+    text-align:center;
+    padding-top: 2rem;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://greatbritishmag.co.uk/wp-content/uploads/2018/08/Pub-culture-featured-compressed.jpg);
+    height: 100%;
+    flex-grow: 3;
+}
+
+
+.features2 h1{
+    font-size: 2rem;
+    color: white;
+}
+
+
+.features2 .box-container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    list-style-type: none;
+}
+
+.features2 .box-container2 .box2:hover{
+    transform: scale(0.9) translateY(-5px);
+    cursor: pointer;
+}
+
+.features2 .box-container2 .box2{
+    flex: 1 1 0rem;
+    background: white;
+    border-radius: .5rem;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    margin: 5rem;
+    padding: 3rem 3rem;
+    border-radius: .5rem;
+    text-align: center;
+    transition: all .35s ease;
+}
+
+.features2 .box-container2 .box2 img{
+    height: 15rem;
+}
+
+
+.features2 .box-container2 .box2 a{
+    border: 1px solid black;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 20px;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+}
+.features2 .box-container2 .box2 a:hover{
+    background: black;
+    color: white;
+}
